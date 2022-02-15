@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    min-width: 1024px;;
+}
+
+.top-section{
+    height: 300px;
+    width: 100%;
+    background-color: #1f2937;
+    display: flex;
+    color: white;;
+    flex-wrap:wrap;
+}
+
+.links{
+    width: 100%;
+    height: 25%;
+   margin: 5px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    
+}
+
+.icon-logo-text{
+    
+    height: 25%;
+}
+
+.links>ul{
+    list-style: none;
+   
+}
+.links>ul li{
+    display:inline;
+    margin: 0px 10px;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
